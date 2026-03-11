@@ -1,0 +1,147 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+    width: 80%;
+    min-width: 900px;
+    max-width: 2050px;
+    margin: auto;
+    background-color: #0C5442;
+    border: 1.5pt solid #003300;
+    background-image: linear-gradient(#FFFFFF, #0C5442);
+}
+
+header {
+    height: 175px;
+    padding-top: 30px;
+    padding-left: 3em;
+    background-image: url(assets/pasture.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+h1 {
+    margin-top: 0;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+    color: #D0EEFF;
+}
+
+
+
+nav {
+    float: left;
+    width: 160px;
+    padding: 1.5em;
+    font-size: 120%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+nav a:link {
+    color: #00664D;
+}
+
+nav a:visited {
+    color: #7A7A52;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+nav a {
+    text-decoration: underline;
+} 
+
+main {
+    background-color: #FFFFFF;
+    margin-left: 190px;
+    padding: 1px 20px 20px 30px;
+    display: block;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+    text-shadow: 1px 1px #CCCCCC;
+}
+h2 {
+    color: #1B5E20;
+} 
+
+footer {
+    margin-left: 190px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+    font-size: 75%;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", serif;
+}
+main ul {
+    list-style-image: url(assets/marker.gif);
+}
+.barn {
+    font-weight: bold;
+}
+.barn {
+    font-weight: bold;
+    color: #00BFFF;   /* neon blue */
+}
+
+#contact {
+    font-size: 90%;
+}
+
+#homeImage {
+    margin-left: 190px;
+}
+
+#boardImage {
+    margin-left: 190px;
+}
+
+#trainingImage {
+    margin-left: 190px;
+}
+.neon {
+    color: #00BFFF;      /* neon blue / cyan */
+    font-weight: bold;
+} 
+dt {
+    color: #0B6623;   /* dark green */
+    font-weight: bold;
+}
+header {
+    background-color: #00B386;
+    color: #FFFFFF;
+}
+#homeImage {
+    background-image: url(assets/sunsetHorse.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#boardImage {
+    background-image: url(assets/fenceline.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#trainingImage {
+    background-image: url(assets/BayBella.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
